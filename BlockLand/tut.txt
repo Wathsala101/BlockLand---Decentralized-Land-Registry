@@ -1,0 +1,15 @@
+https://account.mapbox.com/auth/signup/ --> Geo Location
+https://nft.storage/ --> IPFS
+
+npm install -g truffle
+
+truffle compile
+truffle migrate
+
+Copy contract address as seen in the image below and paste in variable contractAddress located in the file ./lib/constant/constant.dart
+
+flutter pub get
+
+flutter run -d web-server --web-port 5555
+
+http://localhost:5555/
